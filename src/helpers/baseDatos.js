@@ -24,14 +24,14 @@ export let productos = Array(
     },
     {
         nombre: "Ruleta Luminosa",
-        descripcion: "Aqui ponga descripcion",
+        descripcion: "Nueva Ruleta Luminade 8 jugadores, una ruleta compacta pensada para espacio limitado que hay en los salones,altas prestaciones en solo 2,26 metros de diametro,con la maxima jugabilidad y hergonomica,Egasa te acerca su software exclusivo desarrollado de nuestra  experiencia en el mundo del  juego con mas de 70 salones operativos.",
         fotos: ["https://firebasestorage.googleapis.com/v0/b/ygttienda.appspot.com/o/futura-2.png?alt=media&token=98794207-55dd-4975-b46f-f3bbca7411bf", "https://firebasestorage.googleapis.com/v0/b/ygttienda.appspot.com/o/Futura-2.1.png?alt=media&token=d25da1a2-2c43-4841-af5c-75b3ffdf1db0"],
         precio: 70000,
         popularidad: 4.2
     },
     {
         nombre: "Novo Line Power Cash",
-        descripcion: "Aqui ponga descripcion",
+        descripcion: "Es el primer producto de la marca con gráficos en alta definición para los bares de España Los clientes podrán jugar a 12 juegos distintos, y todos ellos permiten acceder al juego común Lock & Spin, en el que se accede al jackpot progresivo con 4 niveles cuando se cuenta con un mínimo de cinco monedas amarillas",
         fotos: ["https://firebasestorage.googleapis.com/v0/b/ygttienda.appspot.com/o/Novo.png?alt=media&token=e09a713d-d416-462f-9865-fd91c5e9e34c", "https://firebasestorage.googleapis.com/v0/b/ygttienda.appspot.com/o/Novo1.png?alt=media&token=b87cb49c-fcfb-4fe4-9a91-95fd6ef10f33"],
 
         precio: 70000,
@@ -39,14 +39,14 @@ export let productos = Array(
     },
     {
         nombre: "Jugada Maestra",
-        descripcion: "Aqui ponga descripcion",
+        descripcion: " JUGADA MAESTRA es una máquina de tipo B con dispositivo de bombo físico con dado,Por un lado trasladará al jugador la sensación de azar puro, y por otro,permitirá optar a juegos nunca antes vistos en este tipo de máquinas",
         fotos: ["https://firebasestorage.googleapis.com/v0/b/ygttienda.appspot.com/o/Jugada.jpg?alt=media&token=34a3890c-47db-450d-b65f-9fbc8063f9d9", "https://firebasestorage.googleapis.com/v0/b/ygttienda.appspot.com/o/jugada1.png?alt=media&token=e9482804-caab-4e0b-828b-d9f1a303b3d8"],
         precio: 70000,
         popularidad: 4.2
     },
     {
         nombre: "Manhattan Reelvolution",
-        descripcion: "Aqui ponga descripcion",
+        descripcion: " Manhattan Reelvolution es mucho más que un juego. Son 5 máquinas en 1; 4 Mixtas y 1 de puntos ",
         fotos: ["https://firebasestorage.googleapis.com/v0/b/ygttienda.appspot.com/o/Mantha.webp?alt=media&token=b79bfd96-7146-499e-ac31-b3e003934bd0", "https://firebasestorage.googleapis.com/v0/b/ygttienda.appspot.com/o/Mantha1.png?alt=media&token=7f643fe5-2680-4585-a728-d718ec7df634"],
         precio: 70000,
         popularidad: 4.2
@@ -54,21 +54,21 @@ export let productos = Array(
 
     {
         nombre: "Climbing Fortune",
-        descripcion: "Aqui ponga descripcion",
+        descripcion: " La nueva serie Fortune Tree de Ainsworth debuta con el lanzamiento de Climbing Fortune e Ingots Tree. Estos progresivos independientes de temática asiática contienen una función de juegos gratis y una función de elección misteriosa que premia los Jackpots Progresivos.",
         fotos: ["https://firebasestorage.googleapis.com/v0/b/ygttienda.appspot.com/o/Astar.png?alt=media&token=f4e9c5fa-1f3a-48f0-b1f8-37127bd9d036", "https://firebasestorage.googleapis.com/v0/b/ygttienda.appspot.com/o/Astar2.png?alt=media&token=c086159b-56a8-41d8-9b43-0f02c6f3e85e"],
         precio: 70000,
         popularidad: 4.2
     },
     {
         nombre: "Novoline Royal Cash",
-        descripcion: "Aqui ponga descripcion",
+        descripcion: " Modelo de máquina fabricado por Novomatic.Características principales: Modelo digital con versiones de juego nuevos. Incorpora nuevos juegos. El nuevo módelo de 2021 de la fabrica Novomatic.",
         fotos: ["https://firebasestorage.googleapis.com/v0/b/ygttienda.appspot.com/o/Novoline.webp?alt=media&token=53250cad-7e93-4897-a676-12b9c3bfcb8f", "https://firebasestorage.googleapis.com/v0/b/ygttienda.appspot.com/o/Novoline2.png?alt=media&token=2cd979ad-2180-4613-8813-bfd5642677f6"],
         
         precio: 70000,
         popularidad: 4.2
     }, {
     nombre: "Cash Race Plus",
-    descripcion: "Aqui ponga descripcion",
+    descripcion: "Características principales: Nuevo modelo mixto (rodillo + video) ambientada en el mundo del motor y carreras. Un nuevo modelo con 6 minijuegos que harán de él tu carrera hacia  la diversión.",
     fotos: ["https://firebasestorage.googleapis.com/v0/b/ygttienda.appspot.com/o/Cash.webp?alt=media&token=5b439150-0f26-4b61-b649-1393bc6e9a43","https://firebasestorage.googleapis.com/v0/b/ygttienda.appspot.com/o/Cash2.png?alt=media&token=e3d68dbd-60df-455b-ba81-0a3745475427"],
     precio: 70000,
     popularidad: 4.2

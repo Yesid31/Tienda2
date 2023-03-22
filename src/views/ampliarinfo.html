@@ -17,7 +17,7 @@
     <header>
         <nav class="navbar navbar-expand-lg menu animate__animated animate__backInDown">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Navbar</a>
+                <a class="navbar-brand" href="#">Casinos</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -26,33 +26,35 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="/index.html">Inicio</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
-                        </li>
+                        
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
-                                Dropdown
+                                Pagina Oficial Productos
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="https://www.novomatic.com/es" target="_blank">Novomatic</a></li>
+                                <li><a class="dropdown-item" href="https://www.clubbersgoldcasino.com/es/" target="_blank">Gold Club </a></li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                <li><a class="dropdown-item" href="https://venues.merkurslots.com/" target="_blank">Merkurs</a></li>
                             </ul>
                         </li>
+                       
+                    </ul>
+                    <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link disabled">Disabled</a>
+                            <a href="" class="nav-link active> <i class="bi bi-cart2"></i>
+                                <span id="pildora"class="position-absolute top-10 start-10 translate-middle badge rounded-pill bg-danger">
+                                    0
+                                    
+                                  </span>
+                            </a>
                         </li>
                     </ul>
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
                 </div>
             </div>
         </nav>
@@ -61,8 +63,7 @@
         <div class="container-fluid my-5">
             <div class="row">
                 <div class="col-8">
-                    <img src=""
-                        alt="Foto" class="img-fluid w-100" id="foto">
+                    <img src="" alt="Foto" class="img-fluid w-100" id="foto">
                 </div>
                 <div class="col-4 border border-start">
                     <h3 class="text-center fw-blod" id="nombre">Maquina Cash Race Plus</h3>
@@ -87,8 +88,8 @@
                     <hr>
                     <h4>SubTotal:</h4>
                     <h2 class="mt-5 fw-blod">USD $9000</h2>
-                    <button class="btn btn-warning" type="button"><i class="bi bi-cart4">añadir al carrito</i></button>
-                    <button class="btn btn-outline-success">Precio En Pesos</button>
+                    <button class="btn btn-warning" type="button" id="btnagregarcarrito"><i class="bi bi-cart4">añadir al carrito</i></button>
+                    <button class="btn btn-outline-success">Precio En Dolares</button>
                 </div>
             </div>
         </div>
@@ -97,7 +98,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
-        <script src ="../controllers/controladorCompra.js" type="module"></script>
+    <script src="../controllers/controladorCompra.js" type="module"></script>
 </body>
 
 </html>
