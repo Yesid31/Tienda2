@@ -28,30 +28,34 @@
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="/index.html">Inicio</a>
                         </li>
-                        
+
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
                                 Pagina Oficial Productos
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="https://www.novomatic.com/es" target="_blank">Novomatic</a></li>
-                                <li><a class="dropdown-item" href="https://www.clubbersgoldcasino.com/es/" target="_blank">Gold Club </a></li>
+                                <li><a class="dropdown-item" href="https://www.novomatic.com/es"
+                                        target="_blank">Novomatic</a></li>
+                                <li><a class="dropdown-item" href="https://www.clubbersgoldcasino.com/es/"
+                                        target="_blank">Gold Club </a></li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
-                                <li><a class="dropdown-item" href="https://venues.merkurslots.com/" target="_blank">Merkurs</a></li>
+                                <li><a class="dropdown-item" href="https://venues.merkurslots.com/"
+                                        target="_blank">Merkurs</a></li>
                             </ul>
                         </li>
-                       
+
                     </ul>
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a href="" class="nav-link active> <i class="bi bi-cart2"></i>
-                                <span id="pildora"class="position-absolute top-10 start-10 translate-middle badge rounded-pill bg-danger">
+                            <a href="" class="nav-link active"> <i class=" bi bi-cart2 fs-1"></i>
+                                <span id="pildora"
+                                    class="position-absolute top-10 start-10 translate-middle badge rounded-pill bg-danger">
                                     0
-                                    
-                                  </span>
+
+                                </span>
                             </a>
                         </li>
                     </ul>
@@ -83,15 +87,33 @@
                     <h4>Devolucion en 30 Días</h4>
                     <br> <br>
                     <h4>Cantidad:</h4>
-                    <input type="number" placeholder="1" class="form-control">
+                    <input id="cantidad" type="number" placeholder="1" class="form-control" min="1">
                     <br>
                     <hr>
-                    <h4>SubTotal:</h4>
-                    <h2 class="mt-5 fw-blod">USD $9000</h2>
-                    <button class="btn btn-warning" type="button" id="btnagregarcarrito"><i class="bi bi-cart4">añadir al carrito</i></button>
-                    <button class="btn btn-outline-success">Precio En Dolares</button>
+                    <div>
+                        <h4>Subtotal</h4>
+                        <span id="SpanSubtotal"></span>
+                    </div>
+
+                    <div>
+                        <button class="btn btn-warning" type="button" id="btnagregarcarrito"><i
+                                class="bi bi-cart-fill"></i> Añadir al
+                            carrito</button>
+                    </div>
+                    <div>
+                        <button id="conversor" type="button" class="btn btn-primary mt-2">Precio dolares</button>
+
+                        <span id="precioUSD">
+                         
+                        </span>
+                    </div>
+                    <div>
+                        <button id="btneliminar" type="button"class="btn btn-danger mt-2">Limpiar Carrito</button>
+                    </div>
                 </div>
+
             </div>
+        </div>
         </div>
 
     </main>
